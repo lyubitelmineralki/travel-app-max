@@ -304,7 +304,7 @@ Bot API подключён через [max-messenger/max-botapi-python](https://
 
 ### Репозиторий и выкладка через Git
 
-Код: [Darkness6030/max-local-tourism](https://github.com/Darkness6030/max-local-tourism), private. Локальные секреты, исходные конфиденциальные документы и временные файлы не входят в Git.
+Код: [lyubitelmineralki/travel-app-max](https://github.com/lyubitelmineralki/travel-app-max), private. Локальные секреты, исходные конфиденциальные документы и временные файлы не входят в Git.
 
 После проверок закоммитьте изменения в `main` и выполните `python3 scripts/deploy.py`: команда отправит ветку на GitHub и развернёт на Dental конкретный коммит. На сервере используется read-only deploy key, отдельный Git worktree на каждый релиз, резервная копия PostgreSQL и откат приложения при неудачной проверке. Подробности — [deploy/README.md](deploy/README.md). Все последующие обновления выполняются этим способом.
 
